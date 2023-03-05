@@ -32,8 +32,9 @@ http://blog.codinglabs.org/articles/theory-of-mysql-index.html  这个复习的�
 * **Low cost** of disk read and write.     Reason: Internal nodes don't store the data, only pointer.
 * The number of disk I/O is low.      Reason: The height of tree is low
 * Better for **Range query**.    Reason: Linked List in leaf nodes.
+* {% include figure.html path="images/image-20230228011302575.png" class="img-fluid rounded z-depth-1" %}
 
-<img src="images/image-20230228011302575.png" alt="image-20230228011302575" style="zoom: 50%;" />
+<!--<img src="images/image-20230228011302575.png" alt="image-20230228011302575" style="zoom: 50%;" /> -->
 
 ### Database Related 
 
